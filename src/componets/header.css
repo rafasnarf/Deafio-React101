@@ -1,0 +1,32 @@
+.navbar {
+  position: absolute;
+  width: 1024px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  background: #4A90E2;
+  color: white;
+  font-family: Helvetica;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.navbar img {
+  padding-left: 50px;
+  align-self: center;
+}
+
+.navbar h2 {
+  width: 121px;
+  height: 24px;
+  left: 42px;
+  top: 20px;
+  padding-left: 40px;
+}
+
+.navbar p {
+  text-align: right;
+  font-weight: 700;
+  padding-right: 60px;
+  align-self: center;
+}
